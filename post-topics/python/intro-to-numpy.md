@@ -5,7 +5,7 @@ Its main feature is the array, which is like a more powerful Python list. Arrays
 
 ## 2: USAGE OF NUMPY
 
-A. Creating Arrays
+**A. Creating Arrays**
 ```
 import numpy as np
 
@@ -15,7 +15,7 @@ print(A)
 
 Arrays can be created from lists. They’re faster than regular Python lists and let you do maths directly.
 
-B. Array Operations
+**B. Array Operations**
 ```
 A2 = np.array([5,6,7,8])
 A_sum = A + A2
@@ -24,7 +24,7 @@ print(A_sum)
 
 NumPy lets you add, subtract, multiply, or divide arrays element-wise without loops - perfect for large datasets.
 
-C. Working with Matrices
+**C. Working with Matrices**
 ```
 matrix = np.array([[1,2],[3,4]])
 transpose = matrix.T
@@ -36,7 +36,7 @@ A matrix is just a 2D array of numbers. Transposing flips rows and columns. This
 * Preparing datasets for analysis
 * Aligning information in science, finance, engineering, etc.
 
-D. Generating Data
+**D. Generating Data**
 ```
 random_nums = np.random.rand(3)
 print(random_nums)
